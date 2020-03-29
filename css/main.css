@@ -99,8 +99,6 @@ textarea {
    ========================================================================== */
 
 body {
-    max-width: 1200px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,7 +116,7 @@ footer {
 }
 
 header {
-    
+    padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -126,6 +124,7 @@ header .content-wrapper {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    flex-basis: 100%;
 }
 
 header img {
@@ -133,19 +132,25 @@ header img {
 }
 
 .header-divider {
-    
+    width: 100%;
+    margin: 10px 0 15px 0;
 }
 
 header nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
+    flex-basis: 100%;
 }
 
 header nav ul {
     display: flex;
     justify-content: space-around;
+    flex-basis: 100%;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
 }
 
 
@@ -154,7 +159,8 @@ footer {
 }
 
 footer .content-wrapper {
-
+    width: 55%;
+    margin: 50px 0;
 }
 
 footer .footer-content {
@@ -192,7 +198,7 @@ footer .social-icons p {
 }
 
 .hero-area .content-wrapper {
-
+    margin: 50px 40px 0 20px;
 }
 
 /* Aside */
@@ -202,6 +208,10 @@ aside {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+}
+
+aside .content-wrapper {
+    margin: 30px 20px 50px 20px;
 }
 
 .form-description {
@@ -221,7 +231,7 @@ aside {
 }
 
 .features .content-wrapper {
-    
+    margin: 50px 30px 65px 15px;
 }
 
 .features .features-items {
@@ -230,8 +240,8 @@ aside {
     flex-flow: row wrap;
 }
 
-article {
-    
+.features article {
+    width: 50%;
 }
 
 .fontawesome-icon {
@@ -250,14 +260,19 @@ article {
     flex-flow: row wrap;
 }
 
-.reviews .content-wrapper {
+.reviews h3 {
+    flex-basis: auto;
+}
 
+.reviews .content-wrapper {
+    margin: 50px 15px;
 }
 
 .review-content {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
 
 /* ==========================================================================

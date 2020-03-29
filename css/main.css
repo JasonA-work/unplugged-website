@@ -199,7 +199,7 @@ footer .social-icons p {
 }
 
 .hero-area .content-wrapper {
-    margin: 50px 40px 0 20px;
+    width: 85%;
 }
 
 /* Aside */
@@ -410,7 +410,7 @@ aside .content-wrapper {
 @media only screen and (min-width: 768px) {
 /*Tablet styles here*/
     
-    /*HEADER AND FOOTER STYLES*/
+    /*TABLET HEADER AND FOOTER STYLES*/
     
     header {
         flex-basis: 85%;
@@ -449,16 +449,16 @@ aside .content-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-basis: 73%;
     }
 
     footer .content-wrapper {
-        flex-basis: 83%;
         text-align: center;
     }
 
     footer .footer-content {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
     }
 
@@ -611,6 +611,156 @@ aside .content-wrapper {
 
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here*/
+    
+       /*DESKTOP HEADER AND FOOTER STYLES*/
+    
+    header {
+        flex-basis: 80%;
+    }
+
+    footer {
+        width: 70%;
+    }
+
+    footer .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .social-icons p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+        /*Aside*/
+    
+    aside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
+    aside .content-wrapper {
+        flex-basis: 85%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .form-description {
+        flex: 1;
+        margin-right: 45px;
+    }
+
+    .form {
+        flex: 1;
+        margin-left: 45px;
+    }
+
+    .form input {
+        width: 100%;
+        padding: 9px, 0;
+    }
+
+        /* Features */
+
+    .features article {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features-item-description {
+        width: 200px;
+        text-align: center;
+    }
+    
+        /*Reviews*/
+
+    .reviews {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
+    .reviews .content-wrapper {
+        flex-basis: 83%;
+    }
+    
+    .reviews h3 {
+        flex-basis: 77%;
+    }
+
+    .review-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+    
+/* ==========================================================================
+   Desktop About Page
+========================================================================== */
+    
+    .mission {
+        flex-basis: 83%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        width: 83%;
+        margin: 0 auto;
+    }
+    
+    .mission-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .mission-content p {
+        flex-basis: 46%;
+    }
+
+    .contact-section {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    .contact-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+
+/* ==========================================================================
+   Desktop FAQ Page
+========================================================================== */
+
+    .faq .content-wrapper {
+        width: 83%;
+        margin: 0 auto;
+        display: block;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .faq h2 {
+        flex-basis: 100%;
+    }
+    
+    .faq .faq-content {
+        flex-basis: 46%;
+    }
+    
+}
+    
 }
 
 /* ==========================================================================

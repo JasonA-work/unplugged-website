@@ -593,7 +593,7 @@ aside .content-wrapper {
     .faq .content-wrapper {
         width: 83%;
         margin: 0 auto;
-        display: block;
+        display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: flex-start;
@@ -710,63 +710,15 @@ aside .content-wrapper {
    Desktop About Page
 ========================================================================== */
     
-    .mission {
-        flex-basis: 83%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
-        width: 83%;
-        margin: 0 auto;
-    }
-    
-    .mission-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    
-    .mission-content p {
-        flex-basis: 46%;
-    }
-
-    .contact-section {
-        display: block;
-        width: 85%;
-        margin: 0 auto;
-    }
-    
     .contact-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        justify-content: flex-start;
     }
     
-
-/* ==========================================================================
-   Desktop FAQ Page
-========================================================================== */
-
-    .faq .content-wrapper {
-        width: 83%;
-        margin: 0 auto;
-        display: block;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        align-items: flex-start;
+    .contact-content div {
+        flex: 1;
     }
     
-    .faq h2 {
-        flex-basis: 100%;
-    }
-    
-    .faq .faq-content {
-        flex-basis: 46%;
-    }
-    
-}
-    
-}
+    /*Desktop styles END*/
 
 /* ==========================================================================
    Print styles.

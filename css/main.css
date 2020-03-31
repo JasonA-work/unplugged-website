@@ -151,11 +151,11 @@ p {
 }
 
 img {
-
+    width: 100%;
 }
 
 figure {
-
+    margin: 0;
 }
 
 address {
@@ -190,8 +190,12 @@ header .content-wrapper {
     flex-basis: 100%;
 }
 
-header img {
-
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -260,6 +264,11 @@ footer .social-icons p {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    height: 500px;
+    background-image: url('../img/hero-img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-area .content-wrapper {
@@ -318,6 +327,10 @@ aside .content-wrapper {
     justify-content: center;
     flex-flow: row wrap;
     padding: 1em 0 3.125em 0;
+    background-image: url(../img/camp.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .features .content-wrapper {
@@ -516,7 +529,7 @@ aside .content-wrapper {
     /*TABLET HEADER AND FOOTER STYLES*/
     
     header {
-        padding: 1.875em 3.5em;
+        padding: 1.875em 2.9em;
     }
 
     header .content-wrapper {
@@ -524,8 +537,9 @@ aside .content-wrapper {
         flex-flow: row nowrap;
     }
 
-    header a {
+    header figure {
         flex: 1;
+        justify-content: flex-start;
     }
 
     .header-divider {
@@ -582,6 +596,10 @@ aside .content-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    
+    .hero-area {
+        height: 600px;
     }
     
         /*Aside*/
@@ -744,7 +762,7 @@ aside .content-wrapper {
        /*DESKTOP HEADER AND FOOTER STYLES*/
     
     header {
-        padding: 1.56em 7.25em;
+        padding: 1.56em 4.1em;
     }
 
     footer .content-wrapper {

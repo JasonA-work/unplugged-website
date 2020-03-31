@@ -344,11 +344,18 @@ aside .content-wrapper {
 }
 
 .features article {
+    text-align: center;
     flex-basis: 55%;
 }
 
-.fontawesome-icon {
-    
+.features i {
+	font-size: 3.75em;
+    margin-bottom: 40px;
+}
+
+p.fontawesome-icon {
+    margin-top: 2.5em;
+    margin-bottom: 0;
 }
 
 .features-item-description {
@@ -675,8 +682,9 @@ aside .content-wrapper {
     .features article {
         flex-basis: 50%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        flex-flow: column;
     }
 
     .features-item-description {

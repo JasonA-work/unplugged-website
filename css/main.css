@@ -116,7 +116,7 @@ body {
 
 ul, 
 ol {
-    font-size: 1.125;
+    font-size: 1.125em;
     font-weight: bold;
     list-style-type: none;
 }
@@ -141,7 +141,7 @@ h2 {
 h3, 
 h4 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.125;
+    font-size: 1.125em;
     font-weight: 400;
 }
 
@@ -196,7 +196,7 @@ header img {
 
 .header-divider {
     flex-basis: 100%;
-    margin: 10px 0 15px 0;
+    margin: .625em 0 .9375em 0;
     border: 0.0175em solid #fff;
     opacity: .3;
 }
@@ -278,7 +278,7 @@ aside {
 }
 
 aside .form {
-  margin-top: 30px;
+  margin-top: 1.875em;
 }
 
 input[type=text] {
@@ -291,8 +291,8 @@ input[type=text] {
 
 input[type=button] {
   width: 100%;
-  padding: 20px 0;
-  margin-top: 20px;
+  padding: 1.25em 0;
+  margin-top: 1.25em;
   background-color: #2a423a;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -498,7 +498,19 @@ aside .content-wrapper {
 /*Tablet styles here*/
     
     html {
-        /*font-size: 21px;*/
+        font-size: 21px;
+    }
+    
+    h2 {
+        font-size: 1.7em;
+    }
+    
+    p {
+        font-size: .7em;
+    }
+    
+    nav ul li {
+        font-size: 0.66em;
     }
     
     /*TABLET HEADER AND FOOTER STYLES*/
@@ -528,11 +540,11 @@ aside .content-wrapper {
 
     header nav ul {
         justify-content: flex-end;
-        margin-left: 35px;
+        margin-left: 1.6667em;
     }
     
     header nav ul li {
-        margin-left: 35px;
+        margin-left: 1.6667em;
     }
     
     footer {
@@ -543,7 +555,7 @@ aside .content-wrapper {
 
     footer .content-wrapper {
         text-align: center;
-        padding: 6.25em;
+        padding: 4.95em;
     }
 
     footer .footer-content {
@@ -601,6 +613,16 @@ aside .content-wrapper {
     .form input {
         width: 100%;
         padding: 9px, 0;
+    }
+
+    input[type=text] {
+      padding: .675em;
+    }
+
+    input[type=button] {
+      padding: .675em 0;
+      margin-top: 1.25em;
+      font-size: 1.125em;
     }
 
         /* Features */
@@ -703,6 +725,22 @@ aside .content-wrapper {
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here*/
     
+    html {
+        font-size: 27px;
+    }
+    
+    h2 {
+        font-size: 1.35em;
+    }
+    
+    p {
+        font-size: .675em;
+    }
+    
+    nav ul li {
+        font-size: 0.6666em;
+    }
+    
        /*DESKTOP HEADER AND FOOTER STYLES*/
     
     header {
@@ -710,7 +748,7 @@ aside .content-wrapper {
     }
 
     footer .content-wrapper {
-        padding: 11.3125em;
+        padding: 3.7em;
     }
 
     footer .social-icons {
@@ -760,12 +798,12 @@ aside .content-wrapper {
         flex: 1;
         display: flex;
         flex-flow: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: flex-start
     }
 
     .form input {
-        width: 320px;
+        width: 100%;
     }
 
         /* Features */

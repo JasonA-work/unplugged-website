@@ -116,7 +116,7 @@ body {
 
 ul, 
 ol {
-    font-size: 1.125em;
+    font-size: 1em;
     font-weight: bold;
     list-style-type: none;
 }
@@ -352,7 +352,6 @@ p.fontawesome-icon {
 
 .reviews h3 {
     flex-basis: auto;
-    font-size: 1.9em;
 }
 
 .reviews .content-wrapper {
@@ -386,7 +385,7 @@ p.fontawesome-icon {
 }
 
 .mission .content-wrapper {
-    padding: 1em;
+    margin: 4%;
 }
 
 .contact-section {
@@ -434,7 +433,7 @@ p.fontawesome-icon {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    padding: 1em;
+    margin: 4%;
 }
 
 /* ==========================================================================
@@ -534,15 +533,19 @@ p.fontawesome-icon {
     }
     
     h2 {
-        font-size: 1.7em;
+        font-size: 1.714em;
+    }
+    
+    h3 {
+        font-size: 1.1429em;
     }
     
     p {
-        font-size: .7em;
+        font-size: .6667em;
     }
     
-    nav ul li {
-        font-size: 0.66em;
+    nav {
+        font-size: .7619em;
     }
     
     /*TABLET HEADER AND FOOTER STYLES*/
@@ -638,16 +641,13 @@ p.fontawesome-icon {
 
     input[type=text] {
         padding: .675em;
-    }
-    
-    input[type=button] {
-        font-size: 65%;
+        font-size: .9em;
     }
 
     input[type=button] {
       padding: .675em 0;
       margin-top: 1.25em;
-      font-size: 1.125em;
+      font-size: 1em;
     }
 
         /* Features */
@@ -715,7 +715,7 @@ p.fontawesome-icon {
     }
     
     .mission .content-wrapper {
-        padding: 3.5em;
+        margin: 9%;
     }
     
     .mission-content {
@@ -753,16 +753,20 @@ p.fontawesome-icon {
 ========================================================================== */
 
     .faq .content-wrapper {
-        margin: 0 auto;
+        margin: 5% auto;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: flex-start;
-        padding: 
+        flex-basis: 80%;
     }
     
     .faq h2 {
         flex-basis: 100%;
+    }
+    
+    .faq h4 {
+        font-size: .6667em;
     }
     
     .faq .faq-content {
@@ -780,19 +784,20 @@ p.fontawesome-icon {
     
     h2 {
         font-size: 1.35em;
+        width: 90%;
     }
     
     h3 {
-        font-size: 1.5em;
+        font-size: 1.1111em;
         margin-bottom: 0;
     }
     
     p {
-        font-size: .8em;
+        font-size: .6666em;
     }
     
     nav ul li {
-        font-size: 0.6666em;
+        font-size: 0.6666rem;
     }
     
        /*DESKTOP HEADER AND FOOTER STYLES*/
@@ -821,12 +826,12 @@ p.fontawesome-icon {
         align-items: flex-start;
     }
 
-    .form-description {
+    aside .form-description {
         flex: 1;
         display: flex;
         flex-flow: column;
         align-items: flex-start;
-        justify-content: flex-start  
+        justify-content: flex-start;
     }
     
     .form input {
@@ -835,11 +840,11 @@ p.fontawesome-icon {
     }
     
     aside .form-description p {
-        width: 400px;
+        width: 57%;
     }
     
-    .form-description h3 {
-
+    aside .form-description h3 {
+        width: 80%;
     }
 
     .form {
@@ -848,6 +853,17 @@ p.fontawesome-icon {
         flex-flow: column;
         align-items: flex-start;
         justify-content: flex-start
+    }
+    
+    input[type=text] {
+        padding: .675em;
+        font-size: .8em;
+    }
+
+    input[type=button] {
+      padding: .675em 0;
+      margin-top: 1.25em;
+      font-size: .9em;
     }
     
         /* Features */
@@ -865,7 +881,6 @@ p.fontawesome-icon {
     }
     
     .reviews h2 {
-        font-size: 1.8em;
         margin: 1em 0 2em 0;
     }
 
@@ -899,6 +914,17 @@ p.fontawesome-icon {
     .map figure {
         padding-bottom: 37.5%; 
     }
+    
+/*==========================================================================
+   Desktop FAQ Page
+========================================================================== */
+    
+    .faq h2 {
+        font-size: 1.7778em;
+        margin-bottom: .2em;
+    }
+    
+
     
     /*Desktop styles END*/
 

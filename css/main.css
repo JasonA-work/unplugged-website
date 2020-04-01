@@ -197,7 +197,7 @@ header figure {
 .header-divider {
     flex-basis: 100%;
     margin: .625em 0 .9375em 0;
-    border: 0.0175em solid #fff;
+    border: 0.04em solid #fff;
     opacity: .3;
 }
 
@@ -215,6 +215,7 @@ header nav ul {
     flex-basis: 100%;
     margin: 0 auto;
     padding: 0;
+    text-transform: uppercase;
 }
 
 footer .content-wrapper {
@@ -416,6 +417,10 @@ p.fontawesome-icon {
     left: 0; 
 }
 
+.chat {
+    margin-top: 5%;
+}
+
 /* ==========================================================================
    Mobile FAQ Page
    ========================================================================== */
@@ -433,7 +438,7 @@ p.fontawesome-icon {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin: 4%;
+    margin: 5%;
 }
 
 /* ==========================================================================
@@ -663,6 +668,7 @@ p.fontawesome-icon {
     .features-item-description {
         width: 200px;
         text-align: center;
+        margin-top: 0;
     }
     
         /*Reviews*/
@@ -696,7 +702,7 @@ p.fontawesome-icon {
 
     .review-content {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         flex-flow: row wrap;
         flex: 1;
@@ -745,6 +751,10 @@ p.fontawesome-icon {
     
     .map figure {
         padding-bottom: 45%; 
+    }
+    
+    .chat {
+        margin-top: 0;
     }
 
 
@@ -886,10 +896,6 @@ p.fontawesome-icon {
 
     .reviews .content-wrapper {
         flex-basis: 83%;
-    }
-    
-    .reviews h3 {
-        font-size: 1.75em;
     }
 
     .review-content {
